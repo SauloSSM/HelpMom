@@ -4,17 +4,14 @@ public class App {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        Transaction transaction = new Transaction("Cartão Carrefour", "Despesa",
+        Transaction transaction = new Transaction("Cartão Bradesco/ Crédito", "Despesa",
                 "08/05/2026", 1000);
-        System.out.println(transaction.getCategory());
-        System.out.println(transaction.getDescription());
-        System.out.println(transaction.getDate());
-        System.out.println(transaction.getAmount());
+        System.out.println(transaction);
 
-        Transaction secondTransaction = new Transaction();
-        System.out.println(secondTransaction.getCategory());
-        System.out.println(secondTransaction.getDescription());
-        System.out.println(secondTransaction.getDate());
-        System.out.println(secondTransaction.getAmount());
+        Expense expense = new Expense("Cartão Polo", "Despesa", "06/05/2026", 545, "20/05/2026");
+        System.out.println(expense);
+
+        Revenue revenue = new Revenue("Cartão Caixa", "Receita", "08/05/2026", 1600, "Estágio X");
+        System.out.println(revenue);
     }
 }
