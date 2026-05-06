@@ -20,7 +20,7 @@ This project is being developed in stages. Below are the milestones according to
 *   Data encapsulation with private attributes and public accessors.
 *   Standardization of object initialization using Constructor Chaining.
 
-### Phase 2: Structural Refinement (Upcoming)
+### Phase 2: Structural Refinement (Completed)
 *   Implementation of class hierarchy using **Inheritance** (Expense vs. Revenue).
 *   Refining method logic with Overriding and Polymorphism.
 
@@ -32,6 +32,7 @@ This project is being developed in stages. Below are the milestones according to
 *   **Transaction Entity:** A standardized model for financial records containing description, category, date, and amount.
 *   **Input Protection:** Strict use of Encapsulation to ensure data integrity.
 *   **Optimized Initialization:** Multiple constructors allowing flexible object creation while maintaining mandatory data fields.
+*   **Categorization of financial movements:** Expenses (with due dates) and Revenues (with source tracking).
 
 ## How to Run
 1. Ensure you have **JDK 21** or higher installed.
