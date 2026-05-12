@@ -1,3 +1,5 @@
+package com.helpmom.classes;
+
 public class Transaction {
 
     private final String category;

@@ -1,3 +1,5 @@
+package com.helpmom.classes;
+
 public class Expense extends Transaction {
 
     private final String dueDate;

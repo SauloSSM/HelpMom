@@ -1,3 +1,5 @@
+package com.helpmom.classes;
+
 public class Revenue extends Transaction {
 
     private final String source;

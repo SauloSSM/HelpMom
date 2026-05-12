@@ -1,3 +1,5 @@
+package com.helpmom.classes;
+
 import java.util.Scanner;
 
 public class App {
